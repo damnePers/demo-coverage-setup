@@ -1,3 +1,5 @@
+package demo;
+
 import java.lang.Math;
 
 public class Area{
