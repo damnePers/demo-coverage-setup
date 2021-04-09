@@ -1,4 +1,4 @@
-package demo:
+package demo;
 
 import java.lang.Math;
 
