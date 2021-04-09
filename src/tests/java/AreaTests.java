@@ -1,3 +1,5 @@
+package demo;
+
 import java.lang.Math;
 import org.junit.Assert;
 import org.junit.Test;
