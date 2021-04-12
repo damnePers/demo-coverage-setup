@@ -2,7 +2,7 @@
 
 View the demo [here](link)
 
-You can follow along in the demo by checking out the basic-repo branch, where you can find the repo we start with.
+You can follow along in the demo by checking out the [initial-repo](https://github.com/damnePers/demo-coverage-setup/tree/initial-repo) branch, where you can find the repo we start with.
 
 ## Step by step 
 
