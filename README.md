@@ -64,7 +64,11 @@ View the demo [here](link)
         </build>
         </project>
 
-2. Run mvn install --> build success
+2. In terminal, run:
+            
+        $ mvn install 
+
+and check for build success before you continue.
 
 3. Add .travis.yml file to connect to Travis. Note: This assumes that you have your github conencted to travis already and that you activate the repo there.
 
@@ -93,13 +97,15 @@ View the demo [here](link)
               </configuration>
             </plugin>
 
+Here you can run mvn install to make sure that the build passes.
+
 5. Go to [codecov.io](https://about.codecov.io/) and login with your github account
 
 - Note: your repo will show up automatically if you have connected Travis correctly. 
 
 6. Add badge in repo by adding the following line to the readme file
 
-    [![codecov](https://codecov.io/gh/<your-name>/<project-name>/branch/main/graph/badge.svg)](https://codecov.io/gh/<your-name>/<project-name>)
+        [![codecov](https://codecov.io/gh/<your-name>/<project-name>/branch/main/graph/badge.svg)](https://codecov.io/gh/<your-name>/<project-name>)
 
 ### Set up Clover to get coverage report
 
@@ -120,11 +126,11 @@ View the demo [here](link)
 
 8. Run:
  
-    mvn clean clover:setup test clover:aggregate clover:clover
+        $ mvn clean clover:setup test clover:aggregate clover:clover
 
-9. Open report in browser
+9. Open report in browser by running the following in the terminal
   
-      open /your-path/index.html
+        $ open /your-path/index.html
 
 ### Check that everything works
 
@@ -134,7 +140,10 @@ Badge will update automatically.
 
 Run 
 
-    mvn clean clover:setup test clover:aggregate clover:clover 
+    $ mvn clean clover:setup test clover:aggregate clover:clover 
   
-again to genreate an updated report
-
+again to genreate an updated report, and open it with the same command as before:
+  
+    $ open /your-path/index.html
+    
+The percentage should now be 100%.
