@@ -2,6 +2,8 @@
 
 View the demo [here](link)
 
+You can follow along in the demo by checking out the basic-repo branch, where you can find the repo we start with.
+
 ## Step by step 
 
 ### Set up codecov to add badge
@@ -124,11 +126,11 @@ Here you can run mvn install to make sure that the build passes.
               <artifactId>clover-maven-plugin</artifactId>
             </plugin>
 
-8. Run:
+8. In terminal, run:
  
         $ mvn clean clover:setup test clover:aggregate clover:clover
 
-9. Open report in browser by running the following in the terminal
+9. Open report in browser by running the following in the terminal:
   
         $ open /your-path/index.html
 
@@ -138,7 +140,7 @@ Add test cases and render new build on travis.
 
 Badge will update automatically.
 
-Run 
+In terminal, run:
 
     $ mvn clean clover:setup test clover:aggregate clover:clover 
   
@@ -146,4 +148,4 @@ again to genreate an updated report, and open it with the same command as before
   
     $ open /your-path/index.html
     
-The percentage should now be 100%.
+The report and the badge should now be updated to match the added tests.
