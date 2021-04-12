@@ -1,4 +1,4 @@
-# This is the initial repo for the readme
+# This is the initial repo for the demo
 
 ## Area and circumference calculator that supports the following geometric figures
 - Circle
