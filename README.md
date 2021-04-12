@@ -1,8 +1,6 @@
-[![codecov](https://codecov.io/gh/damnePers/demo-coverage-setup/branch/main/graph/badge.svg)](https://codecov.io/gh/damnePers/demo-coverage-setup)
+# This is the initial repo for the readme
 
-# Area and circumference calculator
-
-## Supports the following geometric figures
+## Area and circumference calculator that supports the following geometric figures
 - Circle
 - Rectangle
 - Square
