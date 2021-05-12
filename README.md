@@ -1,4 +1,4 @@
-# Demo: How to add code coverage badge + report 
+# Demo: How to add code coverage badge + report using Codecov and Clover
 
 View the demo [here](https://www.youtube.com/watch?v=tBsFjh-7fRw)
 
